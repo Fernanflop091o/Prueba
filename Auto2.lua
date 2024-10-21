@@ -4,7 +4,7 @@ local queueTeleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (f
 
 local function onTeleport()
     if queueTeleport then
-        queueTeleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Fernanflop091o/Prueba/refs/heads/main/Auto1.lua?token=GHSAT0AAAAAACWQNCNAOTORMRZ2PYCIA6NCZYWELXA'))()")
+        queueTeleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Fernanflop091o/Prueba/refs/heads/main/Auto1.lua'))()")
     end
 end
 
