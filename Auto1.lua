@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Fernanflop091o/Prueba/refs/heads/main/Auto3.lua"))()
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Fernanflop091o/Prueba/refs/heads/main/Auto2.lua"))()"))()
 local screenGuiName = "GameTimeGui"
 local existingGui = game.CoreGui:FindFirstChild(screenGuiName)
 
