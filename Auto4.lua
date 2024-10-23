@@ -3,7 +3,7 @@ local screenGuiName = "GameTimeGui"
 local existingGui = game.CoreGui:FindFirstChild(screenGuiName)
 
 if existingGui then
-    existingGui:Destroy()
+    return  -- Evita que se ejecute si ya existe el GUI
 end
 
 local screenGui = Instance.new("ScreenGui")
@@ -17,7 +17,7 @@ timeLabel.BackgroundTransparency = 1
 timeLabel.TextColor3 = Color3.new(1, 1, 1)
 timeLabel.Font = Enum.Font.GothamBold
 timeLabel.TextScaled = true
-timeLabel.Text = "Carga ....." 
+timeLabel.Text = "Carga ....."
 timeLabel.Parent = screenGui
 
 local function updateTimeLabel(label)
