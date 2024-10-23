@@ -1,4 +1,11 @@
+if _G.Auto2Executed then
+    return  -- Evita que se ejecute si ya fue ejecutado previamente
+end
+
+_G.Auto2Executed = true  -- Marca que ya ha sido ejecutado
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Fernanflop091o/Prueba/refs/heads/main/Auto2.lua"))()
+
 local screenGuiName = "GameTimeGui"
 local existingGui = game.CoreGui:FindFirstChild(screenGuiName)
 
