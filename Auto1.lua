@@ -36,6 +36,6 @@ local function updateTimeLabel(label)
     end)
 end
 
-while wait(.5) do
+while wait(.05) do
     updateTimeLabel(timeLabel)
 end
